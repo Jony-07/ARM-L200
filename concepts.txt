@@ -1,0 +1,32 @@
+Conditional Deployment
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/conditional-resource-deployment?tabs=json
+ 
+What-if deployments
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-what-if?tabs=azure-powershell
+ 
+Azure Tags: What are they?
+https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming-and-tagging-decision-guide?toc=%2Fazure%2Fazure-resource-manager%2Fmanagement%2Ftoc.json
+ 
+Using Tags
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources?tabs=json
+ 
+Supported Resources for tags
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-support
+ 
+What is a Template Specs?
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs?tabs=azure-powershell
+ 
+Create your first TemplateSpec
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-template-specs?tabs=azure-portal
+ 
+What is Azure Bicep?
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep
+ 
+Create your First Bicep Template
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/learn-bicep?tabs=azure-powershell
+ 
+What is Deployment Scripts?
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-script-template
+ 
+Create your First Deployment Script Template
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-deployment-script?tabs=PowerShell
