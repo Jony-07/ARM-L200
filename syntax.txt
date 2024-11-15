@@ -1,11 +1,25 @@
-Create your first ARM template
-https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell
+Understand the structure and syntax of ARM templates
+ARM templates have the following elements on its structure:
  
-Understanding the ARM Specialist
-https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/syntax
+$schema describes the version of the template language.  
+contentVersion it´s a required element because you can document significant changes in your template
+parameters are values that are provided when deployment is executed.
+variables are values that are used as JSON fragments in the template to simplify expressions
+functions are user-defined functions that are available within a template.
+Resources are required. Resources types that are deployed or updated in a resource group or subscription
+Outputs are not required. They are values that are returned after deployment
+Parameters
+In these sections, you specify which values you can input when deploying the resources. You are limited to 256 parameters in a template. 
  
-Deploying an ARM Template
-https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-tutorial-local-template?tabs=azure-powershell
+Variables
+Here you construct values that can be used throughout your template. The format of each variables matches one of the data types. 256 variables/template
  
-ARM template functions
-https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-functions
+Functions 
+You create the user-defined functions from expressions and functions that are supported in templates. There are some restrictions:
+-	The function can´t access variables
+-	The functions can access only parameters that are defined in the function.
+-	The functions can´t call other user-defined functions
+-	The function can´t use the reference function
+-	Parameters for the function can´t have default values.
+Resources
+You are limited to 800m resources in a template. 
