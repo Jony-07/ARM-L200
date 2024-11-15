@@ -1,0 +1,11 @@
+Create your first ARM template
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell
+ 
+Understanding the ARM Specialist
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/syntax
+ 
+Deploying an ARM Template
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-tutorial-local-template?tabs=azure-powershell
+ 
+ARM template functions
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-functions
